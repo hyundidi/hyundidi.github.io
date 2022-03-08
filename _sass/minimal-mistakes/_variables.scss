@@ -6,17 +6,17 @@
    Typography
    ========================================================================== */
 
-$doc-font-size: 16 !default;
+$doc-font-size: 10 !default;
 
 /* paragraph indention */
 $paragraph-indent: false !default; // true, false (default)
 $indent-var: 1.3em !default;
 
 /* system typefaces */
-$serif: "IM_Hyemin-Regular", Georgia, Times, serif !default;
-$sans-serif: "IM_Hyemin-Regular", -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",
+$serif: "KoPubDotumMedium", "IM_Hyemin-Regular", Georgia, Times, serif !default;
+$sans-serif: "KoPubDotumMedium", "IM_Hyemin-Regular", -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",
   "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
-$monospace: "IM_Hyemin-Regular", Monaco, Consolas, "Lucida Console", monospace !default;
+$monospace: "KoPubDotumMedium", "IM_Hyemin-Regular", Monaco, Consolas, "Lucida Console", monospace !default;
 
 /* sans serif typefaces */
 $sans-serif-narrow: $sans-serif !default;
@@ -155,9 +155,9 @@ $max-width: $x-large !default;
    Grid
    ========================================================================== */
 
-$right-sidebar-width-narrow: 200px !default;
-$right-sidebar-width: 300px !default;
-$right-sidebar-width-wide: 400px !default;
+$right-sidebar-width-narrow: 300px !default;
+$right-sidebar-width: 400px !default;
+$right-sidebar-width-wide: 500px !default;
 
 /*
    Other
