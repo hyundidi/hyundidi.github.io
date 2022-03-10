@@ -1,6 +1,6 @@
 ---
 title:  "Git 블로그 포스트 머릿말(front-matter) 서식"
-excerpt: "Git 블로그 포스팅을 위한 머릿말 서식과 에시 + markdown 서식까지"
+excerpt: "Git 블로그 포스팅을 위한 머릿말 서식과 예시 + markdown 서식까지"
 
 categories:
   - Git
@@ -11,7 +11,7 @@ toc: true
 toc_sticky: true
  
 date: 2022-03-06
-last_modified_at: 2022-03-06
+last_modified_at: 2022-03-11
 ---
 
 
