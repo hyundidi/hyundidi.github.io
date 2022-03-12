@@ -13,10 +13,13 @@ $paragraph-indent: false !default; // true, false (default)
 $indent-var: 1.3em !default;
 
 /* system typefaces */
-$serif: "KoPubDotumMedium", "IM_Hyemin-Regular", Georgia, Times, serif !default;
-$sans-serif: "KoPubDotumMedium", "IM_Hyemin-Regular", -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",
+$serif: "LeferiBaseType-RegularA", "KoPubDotumMedium", "IM_Hyemin-Regular", Georgia, Times, serif !default;
+$sans-serif: "LeferiBaseType-RegularA", "KoPubDotumMedium", "IM_Hyemin-Regular", -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",
   "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
-$monospace: "KoPubDotumMedium", "IM_Hyemin-Regular", Monaco, Consolas, "Lucida Console", monospace !default;
+$monospace: "LeferiBaseType-RegularA", "IM_Hyemin-Regular", Monaco, Consolas, "Lucida Console", monospace !default;
+$bold-head: "LeferiBaseType-BoldA";
+$code-font: "D2Coding";
+$title-font:  "MaruBuri-Regular", "LeferiBaseType-RegularA", "KOTRAHOPE";
 
 /* sans serif typefaces */
 $sans-serif-narrow: $sans-serif !default;
@@ -30,7 +33,7 @@ $calisto: "Calisto MT", serif !default;
 $garamond: Garamond, serif !default;
 
 $global-font-family: $sans-serif !default;
-$header-font-family: $sans-serif !default;
+$header-font-family: $bold-head !default;
 $caption-font-family: $serif !default;
 
 /* type scale */
@@ -65,6 +68,7 @@ $background-color: #fff !default;
 $code-background-color: #cecece !default;
 $code-background-color-dark: $light-gray !default;
 $text-color: $dark-gray !default;
+$title-color: #684116 !default;
 $muted-text-color: mix(#fff, $text-color, 20%) !default;
 $border-color: $lighter-gray !default;
 $form-background-color: $lighter-gray !default;

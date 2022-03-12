@@ -4,7 +4,7 @@
 
 .masthead {
   position: relative;
-  border-bottom: 1px solid $border-color;
+  border-bottom: 2px solid $border-color;
   -webkit-animation: $intro-transition;
   animation: $intro-transition;
   -webkit-animation-delay: 0.15s;
@@ -50,12 +50,15 @@
   -ms-flex-item-align: center;
   align-self: center;
   font-weight: bold;
+  font-family: $title-font;
+  font-size: 1.7em;
   // z-index: 20;
 }
 
 .site-subtitle {
   display: block;
-  font-size: $type-size-8;
+  font-family: $title-font;
+  font-size: 1rem;
 }
 
 .masthead__menu {

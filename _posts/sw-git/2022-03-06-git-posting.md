@@ -32,12 +32,12 @@ toc: true
 toc_sticky: true
  
 date: 2022-03-06
-last_modified_at: 2022-03-06
+last_modified_at: 2022-03-12
 ---
 ```
 
 - title : 포스팅제목
-- exceprt: 부제목. 
+- excerpt: 부제목. 
 `(원래 카테고리내 포스트 리스트에 같이 출력되는데, 출력 안되게 해놨다)`
 - toc : table of contents. 옆에 목차 띄우기
 - toc_sticky : 스크롤 따라서 toc가 따라옴
