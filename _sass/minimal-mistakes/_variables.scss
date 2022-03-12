@@ -13,13 +13,15 @@ $paragraph-indent: false !default; // true, false (default)
 $indent-var: 1.3em !default;
 
 /* system typefaces */
-$serif: "LeferiBaseType-RegularA", "KoPubDotumMedium", "IM_Hyemin-Regular", Georgia, Times, serif !default;
-$sans-serif: "LeferiBaseType-RegularA", "KoPubDotumMedium", "IM_Hyemin-Regular", -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",
+$serif: "SUIT_ExtraLight",Georgia, Times, serif !default;
+$sans-serif: "SUIT_ExtraLight", -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",
   "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
-$monospace: "LeferiBaseType-RegularA", "IM_Hyemin-Regular", Monaco, Consolas, "Lucida Console", monospace !default;
-$bold-head: "LeferiBaseType-BoldA";
+$monospace: "SUIT_ExtraLight", Monaco, Consolas, "Lucida Console", monospace !default;
+$bold-head: "SUIT-Bold";
 $code-font: "D2Coding";
-$title-font:  "MaruBuri-Regular", "LeferiBaseType-RegularA", "KOTRAHOPE";
+$title-font:  "DungGeunMo", "MaruBuri-Regular", "SUIT_ExtraLight";
+$godic-font:  "MaruBuri-Regular", "SUIT_ExtraLight";
+$post-title-font: "SUIT-Heavy";
 
 /* sans serif typefaces */
 $sans-serif-narrow: $sans-serif !default;
