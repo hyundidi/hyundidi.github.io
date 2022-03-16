@@ -543,29 +543,34 @@
     color: $muted-text-color;
     line-height: 1.5;
     border-bottom: 1px solid $border-color;
-
+    font-weight: bold;
     &:hover {
       color: $text-color;
     }
   }
 
   li ul > li a {
+    font-weight: normal;
     padding-left: 1.5rem;
   }
 
   li ul li ul > li a {
+    font-weight: normal;
     padding-left: 2.25rem;
   }
 
   li ul li ul li ul > li a {
+    font-weight: normal;
     padding-left: 3rem;
   }
 
   li ul li ul li ul li ul > li a {
+    font-weight: normal;
     padding-left: 3.75rem;
   }
 
   li ul li ul li ul li ul li ul > li a {
+    font-weight: normal;
     padding-left: 4.5rem
   }
 }
